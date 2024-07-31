@@ -1,0 +1,22 @@
+nom,sexe,preferencia,persones_si,persones_no
+Edu,M,"pic,truc,ring,llid,enx,cill",Pere,Victor
+Berta,F,"ring,pic,llid,truc,enx,cill",Josemi,"Marc Mateos,Hector F"
+Anna,F,"ring,llid,enx,pic,cill,truc",Paula,Victor
+Paula,F,"ring,llid,enx,pic,cill,truc",Gerard,"Hector F,Marc Mateos"
+Ramon,M,"cill,ring,pic,llid,enx,truc",Gerard,Victor
+Gerard,M,"cill,enx,llid,ring,pic,truc",Ramon,
+Marti,M,"pic,truc,ring,llid,enx,cill",Ramon,Victor
+Marc Mateos,M,"ring,pic,llid,truc,enx,cill",Anna,"Edu,Paula,Berta,Ramon"
+Marc Rodriguez,M,"enx,cill,llid,ring,pic,truc","Berta,Gerard",
+Josemi,M,"ring,llid,pic,enx,cill,truc","Berta,Edu","Victor,Marc Mateos"
+Hector F,M,"ring,llid,pic,enx,cill,truc",Berta M,Elna
+Berta M,F,"cill,enx,llid,ring,pic,truc",Pere,
+Mario,M,"pic,ring,llid,enx,cill,truc",Neus,"Victor,Marc Mateos"
+Neus,F,"ring,llid,enx,cill,pic,truc","Paula,Ramon",Marc Martinez
+Pere,M,"pic,truc,ring,llid,enx,cill",Elna,Hector I
+Elna,F,"pic,truc,ring,llid,enx,cill",Pere,"Victor,Hector I"
+Marc Martinez,M,"ring,cill,llid,pic,enx,truc",Berta M,"Victor,Neus"
+Victor,M,"truc,pic,ring,llid,enx,cill",Hector I,"Elna,Josemi"
+Hector I,M,"truc,pic,ring,llid,enx,cill","Victor,Pere",Victor
+Ligia,F,"cill,enx,llid,ring,truc,pic",Gerard,Marc Mateos
+Mysa,F,"llid,enx,cill,ring,truc,pic",,

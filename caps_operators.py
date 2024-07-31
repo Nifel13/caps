@@ -23,3 +23,4 @@ class Jump(CapsOperator):
     
     def __repr__(self) -> str:
         return f"Jump {self.unitat.caps[self.cap_index]} to {self.unitat2}"
+

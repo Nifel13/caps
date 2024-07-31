@@ -1,0 +1,22 @@
+nom,sexe,preferencia,persones_si,persones_no,bubusea,novato
+Edu,M,"truc,pic,ring,cill,enx,llid",Pere,Berta, False, False
+Berta,F,"ring,truc,pic,llid,enx,cill",Josemi,"Marc Mateos,Edu", False, False
+Anna,F,"ring,llid,enx,pic,cill,truc",Paula,, False, False
+Paula,F,"cill,enx,llid,ring,pic,truc",Gerard,"Hector F,Marc Mateos,Beth", False, False
+Ramon,M,"llid,ring,pic,cill,enx,truc",Gerard,Victor, False, False
+Gerard,M,"cill,llid,pic,ring,enx,truc",Ramon,, False, False
+Jan,M,"ring,llid,enx,cill,pic,truc",,, False, True
+Marc Mateos,M,"ring,llid,enx,cill,pic,truc",Marc Rodriguez,, False, False
+Marc Rodriguez,M,"ring,llid,enx,cill,pic,truc",Ramon,, False, True
+Josemi,M,"ring,pic,llid,truc,enx,cill","Berta,Edu",, False, True
+Hector F,M,"ring,llid,pic,enx,cill,truc",Berta M,, False, True
+Berta M,F,"llid,ring,enx,cill,pic,truc",,"Pere,Hector F", False, True
+Martí,M,"ring,llid,enx,cill,pic,truc",,, False, True
+Adrià,M,"ring,llid,enx,cill,pic,truc",,, False, True
+Pere,M,"truc,pic,ring,llid,enx,cill",Elna,, False, False
+Elna,F,"truc,pic,ring,llid,enx,cill",Pere,, False, False
+Maria,F,"llid,ring,enx,cill,pic,truc",,, False, True
+Núria,F,"llid,ring,enx,cill,pic,truc",,"Paula,Beth,Hector F ", False, True
+Hayat,F,"cill,enx,llid,ring,pic,truc",,, False, True
+Beth,F,"cill,llid,ring,pic,truc,enx",,, False, True
+Safedu,F,"ring,llid,enx,cill,pic,truc",Berta M,, False, True

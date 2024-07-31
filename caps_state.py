@@ -5,7 +5,7 @@ from caps_operators import Swap,Jump
 
 class proposta:
 
-    def __init__(self,n=20,caps_predeterminats: list = None, rand_seed = 41):
+    def __init__(self,n,caps_predeterminats: list = None, rand_seed = 41):
         seed(rand_seed)
         self.n = n
         if caps_predeterminats == None:
@@ -54,7 +54,7 @@ class proposta:
         this_cap = (self.nom_cap, self.sexe_cap, self.preferencia, self.persones_si, self.persones_no)
         return this_cap
     
-    def crear_unitats(self,persones = [3,4,4,4,3,2]):
+    def crear_unitats(self,persones = [3,4,4,4,4,2]):
         llista_de_caps = []
         for cap in self.llista:
             llista_de_caps.append(cap.copy_cap())
@@ -73,6 +73,7 @@ class proposta:
 
         for unitats in self.unitats:
             bubuseados = 0
+            veteranos = 0
             caps_unitat = unitats.noms_caps()
 
             for caps in unitats.caps:
@@ -80,6 +81,9 @@ class proposta:
                 
                 if caps.bubusea == True:
                     bubuseados += 1
+
+                if caps.novato == False:
+                    veteranos += 1
 
                 for company in caps.pers_si:
 
@@ -90,6 +94,9 @@ class proposta:
 
                     if enemic in caps_unitat:
                         puntuacio += 8
+            
+            if veteranos == 0:
+                puntuacio += 10
 
             if bubuseados >= 2:
                 puntuacio += 8*(bubuseados-1)
@@ -175,13 +182,14 @@ class proposta:
                       
 
 class cap(proposta):
-    def __init__(self,nom,sexe, pref_unit,pers_si, pers_no, bubusea = False):
+    def __init__(self,nom,sexe, pref_unit,pers_si, pers_no, bubusea = False,novato = False):
         self.bubusea = bubusea
         self.nom = nom
         self.pref_unit = pref_unit
         self.pers_si = pers_si
         self.pers_no = pers_no
         self.sexe = sexe
+        self.novato = novato
 
     def copy_cap(self):
         new_cap = cap(self.nom,self.sexe,self.pref_unit,self.pers_si,self.pers_no,self.bubusea)
